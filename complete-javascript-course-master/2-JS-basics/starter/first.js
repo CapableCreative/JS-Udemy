@@ -26,10 +26,8 @@ console.log(job);
 var mycatch;
 console.log(mycatch)
 */
-/* ======================================
-    Variable mutation and type coercion
-====================================== */
-
+/* ---------------- Variable mutation and type coercion ---------------- */
+/*
 var firstName = 'John';
 var age = "28";
  
@@ -51,3 +49,46 @@ alert(firstName + ' is a ' + age + ' year old ' + job + '. Is he married? ' + is
 var lastName = prompt('Hey, chump. What\'s your last name?');
 var firstName = prompt('Okay\, what\'s your FIRST name?');
 document.write('Hey\, there! ' + firstName + ' ' + lastName);
+
+*/
+
+// ---------------- Basic js Operators ------------------- //
+/*
+var now, yearJohn, yearMark, ageJohn, ageMark;
+now = 2019;
+yearJohn = now - ageJohn;
+yearMark = now - ageMark;
+ageJohn = 42;
+ageMark = 33;
+var x;
+
+console.log(yearJohn);
+
+console.log(now + 2);
+console.log(now * 2);
+console.log(now / 10);
+
+// Logical operators
+var johnOlder = ageJohn < ageMark;
+console.log(johnOlder);
+
+// typeof operator
+console.log(typeof johnOlder);
+console.log(typeof now);
+console.log(typeof x);
+*/
+
+
+var now, johnYear, markYear, johnAge, markAge;
+now = 2019;
+johnAge = 42;
+markAge = 33;
+johnYear = (now - johnAge);
+
+console.log(now);
+console.log(now + 2);
+console.log(now * 2);
+console.log(now / 10);
+
+console.log(johnAge > markAge);
+console.log(johnAge - markAge);
